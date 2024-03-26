@@ -1,45 +1,52 @@
 body{
     background-color: #efb79e;
-    padding: 0%;
-    margin:0%
+    padding: 0px;
+    margin: 0px;
+
+
 }
+
 .container{
     display: flex;
     justify-content: space-between;
-    background-color:#3e7f8d;
- 
-   
+    background-color:  #3e7f8d;    
+
 }
- 
-.logo {
-display: flex;
-justify-content: space-between;
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
 }
- 
-.menu {
+
+
+.menu{
     display: flex;
     margin-top: 25px;
-   align-items:center;
-   justify-content: center;
-   width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 30px;
     font-family: Curely, sans-serif;
     font-size: 30px;
+    
+    
 }
+
 .menu a{
-    margin-top: 90px;
+    margin-top: 10px;
     border-radius: 20px;
-    padding: 10px  10px 10px 10px;
-    color:whitesmoke;
+    padding: 10px 15px 15px 15px;
+    color: whitesmoke;
     text-decoration: none;
 }
+
 .menu a:hover{
     background-color: #f5dbd7;
     color: #1e7387;
 }
 
- 
-.social {
+.social{
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
@@ -49,10 +56,12 @@ justify-content: space-between;
 .fb:hover{
     opacity: 0.7;
 }
-.in:hover{
+.ins:hover{
     opacity: 0.7;
 }
-/*BARRA DE PESQUISA*/
+
+
+/* BARRA DE PESQUISA */
 .pesquisa{
     display: flex;
     justify-content: center;
@@ -62,29 +71,103 @@ justify-content: space-between;
 .pesquisa input[type=text]{
     display: flex;
     justify-content: center;
-    width: 800px;
-    height: 20px;
+    width: 700px;
+    height: 30px;
     border-radius: 20px;
-    border-color: #b1d4dc;
-    border:solid #cecae5 3px;   
+    border: solid whitesmoke 3px;
+    background-color: #f0d6ca;
+    color: whitesmoke;
 }
-.pesquisa::placeholder{
-    color: #6a8486
+.pesquisa ::placeholder{
+    color: rgb(181, 181, 181)
 }
 
 .pesquisa input[type=submit]{
-border-radius: 20px;
-background-color: #3e7f8d;
-color: whitesmoke;
-border:#3e7f8d 3px solid;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #3e7f8d;
+    color: whitesmoke;
 
-background-image: url("../icons/icons8-search-50.png");
-background-size: 25px;
-background-repeat: no-repeat;
-height: 30px;
-width: 30px;
+    border: #3e7f8d 3px solid;
+    background-image: url("../icons/icons8-search-50.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding:15px 15px 15px 15px;
+    height: 30px;
+    width: 30px;
 }
 
- 
+.pesquisa input[type=submit]:hover{
+    opacity: 0.7;
+}
+
+/* TEXTO RI */
+.a99{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color:#3e7f8d;
+}
+
+/* tratamento do slideshow */
+.mySlides{display: none}
+
+.slideshow-container{
+   display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: auto;
+}
+.numbertext{
+    color: #3e7f8d;
+    font-size: 18px;
+    padding: 10px 10px;
+    position:absolute;
+    top: 0;
+}
+
+.text{
+    color:whitesmoke;
+    font-size: 22px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 8px;
+    width: 100px;
+
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active{
+    background-color: gray;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5;
+}
+
+/*RECEITAS BOX*/
+.container-receitas{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+
+
+@keyframes fade{
+    from {opacity:0,4;}
+    to {opacity:1;}
+}
+    
 @import url('https://fonts.cdnfonts.com/css/curely');
- 
