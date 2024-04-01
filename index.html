@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- LINK DO CSS -->
 <link rel="stylesheet" href="css/estilo.css">
-<!-- IMPORTANDO A FONTE -->
+<!---- IMPORTANDO A FONTE -->
 <link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
     
 <title>28Food</title>
 </head>
 <body>
 <div class="container">
-<div class="logo"><img src="img/28foodlogomarca.svg" width="100px" height="100px" ></div>
+<div class="logo"><a href="index.html"><img src="img/28foodlogomarca2.svg" width="100px" height="100px"></a></div>
 <div class="menu">
 <a href="doces.html">Doces</a>
 <a href="salgados.html">Salgados</a>
@@ -34,58 +34,97 @@
 </div>
 
 <div class="a99">
-<hi>99 Acabou... Noooossaa...Agora e 28Food</hi>
+  <h1>99 Acabou... Noooossaa...Agora e 28Food</h1>
 </div>
 
+<!--BANNER ROTATIVO DE SILDES-->
 <div class="slideshow-container">
-<div class="mySlides fade">
-<div class="numbertext">1 - X</div>
-<img src="img/pao.jfif" style="width: 700px; height: 500px;">
-<div class="text">PÃO CASEIRO</div>
+ <div class="mySlides fade">
+    <div class="numbertext">1 - X</div>
+    <img src="img/pao.jfif" style="width: 700px; height: 500px;" class="slideimg">
+    <div class="text">PÃO CASEIRO</div>
 </div>
+
+
 <div class="mySlides fade">
-<div class="numbertext">2 - X</div>
-<img src="img/coxinhas-03.jpg" style="width: 700px; height: 500px;">
-<div class="text">COXINHA VARIAVEIS</div>
+   <div class="numbertext">2 - X</div>
+   <img src="img/coxinhas-03.jpg" style="width: 700px; height: 500px;" class="slideimg">
+   <div class="text">COXINHA VARIAVEIS</div>
 </div>
-</div>
+
 <div class="mySlides fade">
-<div class="numbertext">3 - X</div>
-<img src="img/Espaguete.jfif" style="width: 700px; height: 500px;">
-<div class="text">ESPAGUETE DOS DEUSES</div>
-</div>   
+    <div class="numbertext">3 - X</div>
+    <img src="img/Espaguete.jfif" width="700px" height="500px" class="slideimg">
+    <div class="text">ESPAGUETE DOS DEUSES</div>
+  </div>
+</div>
 <br>
-<div style="text-align: center;">
-<span class="dot"></span>
-<span class="dot"></span>
-<span class="dot"></span>
+
+<div style="text-align: center; margin-bottom: 100px;">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
 </div>
+
+<a href="" class="container-receitas">RECEITAS</a>
 
 <!--VAMOS FALAR SOBRE CONTEUDO OU SEJA CAIXAS DE RECEITAS-->
 <div class="container-receitas">
-    <div class="receitabox" style="height: 200px;">
-    <a href="" class="rec-texto"><img src="img/coxinhas-03.jpg"alt="foto de Coxinha Tremenda"class="receita-imagem" height="300px" width="300px">Coxinha Tremenda</a>
-    <div class="overlay">
+    <div class="receitabox" >
+        <a href="" class="rec-texto"><img src="img/coxinhas-03.jpg" alt="Foto de Coxinha Tremenda" class="receita-imagem" height="300px" width="300px"><a href="" class="rec-texto"></a>
+        <div class="overlay">
+            Coxinha Tramenda
+        </div>
+    </div>
+
+    <div class="receitabox">
+        <a href="" class="rec-texto"><img src="img/Espaguete.jfif" alt="Foto de espague dos Deuses" class="receita-imagem" height="300px" width="300px"></a>
+        <div class="overlay">
+            Espagute dos Deuses
+        </div>
+    </div>
+
+    <div class="receitabox">
+        <a href="" class="rec-texto"><img src="img/pao.jfif" alt="Foto de Super Pão" class="receita-imagem" height="300px" width="300px"></a>
+        <div class="overlay">
+            O Pão  
+        </div>
+    </div>
+    <div class="receitabox" >
+        <a href="" class="rec-texto"><img src="img/Esfirra.jfif" alt="Foto de Esfirra" class="receita-imagem" height="300px" width="300px"><a href="" class="rec-texto"></a>
+        <div class="overlay">
+            Esfirra
+        </div>
+    </div>
+
+    <div class="receitabox">
+        <a href="" class="rec-texto"><img src="img/lande.jfif" alt="Foto de Lande" class="receita-imagem" height="300px" width="300px"></a>
+        <div class="overlay">
+            Lande
+        </div>
+    </div>
+
+    <div class="receitabox">
+        <a href="" class="rec-texto"><img src="img/comidas.jfif" alt="Foto de Super Pão" class="receita-imagem" height="300px" width="300px"></a>
+        <div class="overlay">
+            O comida
+        </div>
+    </div>
+    
+
+
 </div>
-
-<div class="receitabox" style="height: 200px;">
-    <a href="" class="rec-texto"></a><img src="img/Espaguete.jfif"alt="foto de ESPAGUETE DOS DEUSES "class="receita-imagem" height="300px" width="300px">ESPAGUETE DOS DEUSES</a>
-    <div class="overlay">
-</div>
-
-<div class="receitabox">
-    <a href="" class="rec-texto"></a><img src="img/pao.jfif"alt="foto de PÃO DOS CEUS "class="receita-imagem" height="300px" width="300">PÃO DOS CEUS </a>
-    <div class="overlay">
-</div>
-
-
 
 <!-- IMPORTANDO JAVASCRIPT-->
 <script src="script/script.js"></script>
     
     
 </body>
-<footer>
+<footer class="rodape">
+    <div class="rodape-container">
+
+
+    </div>
 
 </footer>
 
