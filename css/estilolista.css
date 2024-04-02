@@ -1,0 +1,25 @@
+.listareceitas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.receitabox{
+    font-style: italic;
+    color: black;
+    font-size: 18px;
+    width: 300px;
+    text-align: justify;
+    background-color: #3e7f8d;
+    border-radius: 5%;
+    padding: 30px;
+}
+
+
+.lista-imagem{
+    border-radius: 30px;
+
+}

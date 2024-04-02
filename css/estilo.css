@@ -1,5 +1,5 @@
 body{
-    background-color: #efb79e;
+    background-color:azure;
     padding: 0px;
     margin: 0px;
 
@@ -122,6 +122,10 @@ h1{
     justify-content: center;
     max-width: auto;
 }
+.slideimg{
+    border-radius: 30px;
+
+}
 .numbertext{
     color: #3e7f8d;
     font-size: 18px;
@@ -156,13 +160,36 @@ h1{
     animation-name: fade;
     animation-duration: 1.5;
 }
+/* aqui escrevo */
+.texto-receita{
+    font-family: curely;
+    font-size: 40px;
+    color: #1e7387;
+    text-align: center;
+}
 
 /*RECEITAS BOX*/
 .container-receitas{
     display: flex;
     justify-content: space-around;
     align-items:center ;
+    font-size: 25px;
+    color: #1e7387;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 90px;
 }
+.receita-imagem{
+    border-radius: 50%;
+}
+/*rodape pagina*/
+.rodape{
+    height: 300px;
+    width: auto;
+    background-color: #1e7387;
+}
+
 
 
 @keyframes fade{
