@@ -184,13 +184,12 @@ h1{
 .container-receitas{
     display: flex;
     justify-content: space-around;
-    align-items:center ;
+    align-items:center;
     font-size: 25px;
     color: #1e7387;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-style: italic;
-    margin-bottom: 90px;
+    margin-bottom: 210px;
     font-family: Curely, sans-serif;
 }
 .receita-imagem{
