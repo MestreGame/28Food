@@ -1,3 +1,12 @@
+.fundo{
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
 body{
     background-color:azure;
     padding: 0px;
@@ -9,7 +18,7 @@ body{
 .container{
     display: flex;
     justify-content: space-between;
-    background-color:  #3e7f8d;    
+    background-color:crimson; 
 
 }
 
@@ -165,7 +174,7 @@ h1{
 }
 /* aqui escrevo */
 .texto-receita{
-    font-family: curely;
+    font-family: Curely, sans-serif;
     font-size: 40px;
     color: #1e7387;
     text-align: center;
@@ -207,9 +216,9 @@ h1{
     color: beige;
     display: flex;
     justify-content: left;
-    height: 300px;
+    height: 200px;
     width: auto;
-    background-color: #1e7387;
+    background-color:crimson;
 }
 .rodape text{
     margin-top: 250px;
@@ -223,7 +232,9 @@ h1{
 }
 .text{
     align-content: center;
+    font-family: Curely, sans-serif;
 }
+
 
 
 
