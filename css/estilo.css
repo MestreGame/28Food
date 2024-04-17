@@ -206,7 +206,8 @@ h1{
 .map h1, p{
     color: beige;
     display: flex;
-    align-content: center;
+    align-content:center;
+    font-family: Curely, sans-serif;
 
 }
 
@@ -232,6 +233,30 @@ h1{
 .text{
     align-content: center;
     font-family: Curely, sans-serif;
+}
+.sugestao{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 200px;
+}
+.churrasco img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+.janta img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+.almoco img, a{
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
 }
 
 
