@@ -1,0 +1,46 @@
+.container_receitas{
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #1e7387;
+    font-family: Curely, sans-serif;
+}
+
+.preparo:hover{
+    opacity: 0.7;
+    transition: 0,2;
+}
+.preparo img {
+    padding: 5px 5px 0px 5px;
+}
+
+h3,
+h4,
+h5 {
+    color: #1e7387;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+text {
+    color: #1e7566;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #32b5d2;
+}
+
+.imagem_receita {
+    float: right;
+    display: flex;
+    justify-content: right;
+    border-radius: 30px;
+    width: 1000px;
+    height: 648px;
+    margin: 0 auto;
+    position: relative;
+}
